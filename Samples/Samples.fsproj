@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3503bf06-52ea-4423-9dd6-7d8609c5b511</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Samples</RootNamespace>
+    <AssemblyName>Samples</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
+    <Name>Samples</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <Tailcalls>false</Tailcalls>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\$(Configuration)\$(AssemblyName).XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <Tailcalls>true</Tailcalls>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\$(Configuration)\$(AssemblyName).XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '11.0'">
+      <PropertyGroup Condition="Exists('$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets')">
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.FSharp.Targets')">
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </Otherwise>
+  </Choose>
+  <Import Project="$(FSharpTargetsPath)" />
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
+    <Content Include="App.config" />
+    <Content Include="packages.config" />
+    <Compile Include="01_Starting.fs" />
+    <Compile Include="02_QuickSort..fs" />
+    <Compile Include="03_DownloadingWebPage.fs" />
+    <Compile Include="04_Function_oriented_rather_than_object_oriented.fs" />
+    <Compile Include="05_Expressions_rather_than_statements.fs" />
+    <Compile Include="06_AlgebraicTypes.fs" />
+    <Compile Include="07_Pattern_matching.fs" />
+    <Compile Include="08_Conciseness.fs" />
+    <Compile Include="09_Type_Inference.fs" />
+    <Compile Include="10_Low_overhead_type_definitions.fs" />
+    <Compile Include="11_Domain_driven_design.fs" />
+    <Compile Include="12_DRY.fs" />
+    <Compile Include="13_Functions_as_building_blocks.fs" />
+    <Compile Include="14_Extending_existing_functions.fs" />
+    <Compile Include="15_Mini_languages.fs" />
+    <Compile Include="16_Pattern_matching_for_conciseness.fs" />
+    <Compile Include="17_Convenience.fs" />
+    <Compile Include="18_Out_of_the_box_behavior_for_types.fs" />
+    <Compile Include="19_Functions_as_interfaces.fs" />
+    <Compile Include="20_The_strategy_pattern.fs" />
+    <Compile Include="21_Partial_Application.fs" />
+    <Compile Include="22_Active_Patterns.fs" />
+    <Compile Include="23_Correctness.fs" />
+    <Compile Include="24_Immutability.fs" />
+    <Compile Include="25_Mutable_Data.fs" />
+    <Compile Include="26_Exhaustive_pattern_matching.fs" />
+    <Compile Include="27_Using_the_type_system_to_ensure_correct_code.fs" />
+    <Compile Include="28_Worked_example_Designing_for_correctness.fs" />
+    <Compile Include="29_Concurrency.fs" />
+    <Compile Include="30_Asynchronous_programming.fs" />
+    <Compile Include="31_Messages_And_Agents.fs" />
+    <Compile Include="32_Functional_Reactive_Programming.fs" />
+    <Compile Include="33_Completeness.fs" />
+    <Compile Include="34_Seamless_interoperation_with_ NET_libraries.fs" />
+    <Compile Include="35_Anything_CS_can_do.fs" />
+    <Compile Include="36_Stack_Based_Calculator.fs" />
+    <Compile Include="37_Expression_evaluation_order.fs" />
+    <Compile Include="38_Naming_conventions.fs" />
+    <Compile Include="39_Avoiding_control_Flow_Expressions.fs" />
+    <Compile Include="40_Exceptions.fs" />
+    <Compile Include="41_Match_Expressions.fs" />
+    <Compile Include="42_Formatted_text_using_printf.fs" />
+    <Compile Include="43_Worked_example_Parsing_command_line_arguments.fs" />
+    <Compile Include="44_Worked_example_Roman_numerals.fs" />
+    <Compile Include="44_1_Second_Version.fs" />
+    <Compile Include="44_2_My_Version.fs" />
+    <Compile Include="45_Understanding_FSharp_Types.fs" />
+    <Compile Include="46_Overview_of_types.fs" />
+    <Compile Include="47_Type_Abbreviations.fs" />
+    <Compile Include="48_Tuples.fs" />
+    <Compile Include="49_Records.fs" />
+    <Compile Include="50_Discriminated_Unions.fs" />
+    <Compile Include="51_The_Option_Type.fs" />
+    <Compile Include="52_Enum_types.fs" />
+    <Compile Include="53_BuiltIn_DotNET_Types.fs" />
+    <Compile Include="54_Units_of_measure.fs" />
+    <Compile Include="55_Understanding_type_inference.fs" />
+    <Compile Include="56_OOP_Introduction.fs" />
+    <Compile Include="57_ Classes.fs" />
+    <Compile Include="58_Defining_classes_for_use_by_other_DotNet_code.fs" />
+    <Compile Include="59_Constructing_and_using_a_class.fs" />
+    <Compile Include="60_Inheritance_and_abstract_classes.fs" />
+    <Compile Include="61_Interfaces.fs" />
+    <Compile Include="62_Object_expressions.fs" />
+    <Compile Include="63_Porting_from_CSharp_to_FSharp_Introduction.fs" />
+    <None Include="64_Porting_paths_diagram.png" />
+    <Compile Include="65_Getting_started_with_direct_porting.fs" />
+    <Compile Include="66_Porting_Example1.fs" />
+    <Compile Include="67_The_Designing_with_types_series.fs" />
+    <Compile Include="68_Introduction.fs" />
+    <Compile Include="69_Single_case_union_types.fs" />
+    <Compile Include="69_1_EmailAddress.fsi" />
+    <Compile Include="69_2_EmailAddress.fs" />
+    <Compile Include="69_3_EmailAddressClient.fs" />
+    <Compile Include="69_4_When_to_wrap_single_case_unions.fs" />
+    <Compile Include="69_5_The_Code_So_Far.fs" />
+    <Compile Include="70_Making_illegal_states_unrepresentable.fs" />
+    <Compile Include="71_Discovering_new_concepts.fs" />
+    <Compile Include="72_Making_state_explicit.fs" />
+    <Compile Include="73_Constrained_strings.fs" />
+    <Compile Include="74_Non_String_types.fs" />
+    <Compile Include="75_Conclusion.fs" />
+    <Compile Include="76_Computation_expressions_Introduction.fs" />
+    <Compile Include="77_Understanding_continuations.fs" />
+    <Compile Include="78_Introducing_bind.fs" />
+    <Compile Include="79_Exercise_How_well_do_you_understand.fs" />
+    <Compile Include="80_Computation_expressions_and_wrapper_types.fs" />
+    <None Include="80_1_Bing and Return.png" />
+    <Compile Include="81_More_on_wrapper_types.fs" />
+    <Compile Include="82_Implementing_a_builder_Zero_and_Yield.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="FSharp.Core">
+      <Name>FSharp.Core</Name>
+      <AssemblyName>FSharp.Core.dll</AssemblyName>
+      <HintPath>$(MSBuildProgramFiles32)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\$(TargetFSharpCoreVersion)\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.ValueTuple">
+      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

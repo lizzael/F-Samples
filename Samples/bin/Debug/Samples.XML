@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Samples</name></assembly>
+<members>
+<member name="M:_26_Exhaustive_pattern_matching.writeSomeText(System.String,System.String)">
+<summary>
+ write some text to a file
+</summary>
+</member>
+<member name="M:_26_Exhaustive_pattern_matching.printLengthOfFile(System.String)">
+<summary>
+ get the length of the text in the file
+</summary>
+</member>
+<member name="M:_26_Exhaustive_pattern_matching.printFirstLineOfFile(System.String)">
+<summary>
+ get the first line of the file
+</summary>
+</member>
+<member name="M:_32_Functional_Reactive_Programming.createTimer(System.Int32,Microsoft.FSharp.Core.FSharpFunc{System.Timers.ElapsedEventArgs,Microsoft.FSharp.Core.Unit})">
+<summary>
+ create a timer and register an event handler, 
+ then run the timer for five seconds
+</summary>
+</member>
+<member name="M:_46_Stack_Based_Calculator.DROP(_46_Stack_Based_Calculator.Stack)">
+<summary>
+ Drop the top value on the stack
+</summary>
+</member>
+<member name="M:_46_Stack_Based_Calculator.SWAP(_46_Stack_Based_Calculator.Stack)">
+<summary>
+ Swap the top two values
+</summary>
+</member>
+<member name="M:_46_Stack_Based_Calculator.DUP(_46_Stack_Based_Calculator.Stack)">
+<summary>
+ Duplicate the top value on the stack
+</summary>
+</member>
+<member name="M:_46_Stack_Based_Calculator.SHOW(_46_Stack_Based_Calculator.Stack)">
+<summary>
+ Pop and show the top value on the stack
+</summary>
+</member>
+<member name="M:_46_Stack_Based_Calculator.pop(_46_Stack_Based_Calculator.Stack)">
+<summary>
+ Pop a value from the stack and return it 
+ and the new stack as a tuple
+</summary>
+</member>
+<member name="M:_46_Stack_Based_Calculator.push(System.Double,_46_Stack_Based_Calculator.Stack)">
+<summary>
+ Push a value on the stack
+</summary>
+</member>
+<member name="M:_44_Worked_example_Roman_numerals.toRomanNumeral(System.String)">
+<summary>
+ Convert a string to a RomanNumeral
+ Does not validate the input.E.g. &quot;IVIV&quot; would be valid
+</summary>
+</member>
+<member name="M:_44_Worked_example_Roman_numerals.toInt(_44_Worked_example_Roman_numerals.RomanNumeral)">
+<summary>
+ converts a RomanNumeral to an integer
+</summary>
+</member>
+<member name="M:_44_Worked_example_Roman_numerals.digitToInt(_44_Worked_example_Roman_numerals.RomanDigit)">
+<summary>
+ Converts a single RomanDigit to an integer
+</summary>
+</member>
+<member name="M:_44_Worked_example_Roman_numerals.RomanNumeralsV1.toRomanNumeral(System.String)">
+<summary>
+ Convert a string to a RomanNumeral
+ Does not validate the input.E.g. &quot;IVIV&quot; would be valid
+</summary>
+</member>
+<member name="M:_44_Worked_example_Roman_numerals.RomanNumeralsV1.toInt(_44_Worked_example_Roman_numerals.RomanNumeralsV1.RomanNumeral)">
+<summary>
+ converts a RomanNumeral to an integer
+</summary>
+</member>
+<member name="M:_44_Worked_example_Roman_numerals.RomanNumeralsV1.digitsToInt(Microsoft.FSharp.Collections.FSharpList{_44_Worked_example_Roman_numerals.RomanNumeralsV1.RomanDigit})">
+<summary>
+ converts a list of digits to an integer
+</summary>
+</member>
+<member name="M:_44_Worked_example_Roman_numerals.RomanNumeralsV1.digitToInt(_44_Worked_example_Roman_numerals.RomanNumeralsV1.RomanDigit)">
+<summary>
+ Converts a single RomanDigit to an integer
+</summary>
+</member>
+<member name="M:_44_SecondVersion.toRomanNumeral(System.String)">
+<summary>
+ Convert a string to a RomanNumeral
+</summary>
+</member>
+<member name="M:_44_SecondVersion.toInt(_44_SecondVersion.RomanNumeral)">
+<summary>
+ converts a RomanNumeral to an integer
+</summary>
+</member>
+<member name="M:_44_SecondVersion.digitsToInt(Microsoft.FSharp.Collections.FSharpList{_44_SecondVersion.RomanDigit})">
+<summary>
+ converts a list of digits to an integer
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.ZipCode.convert(_73_Constrained_strings.WrappedString.IWrappedString)">
+<summary>
+ Converts any wrapped string to a ZipCode
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.EmailAddress.convert(_73_Constrained_strings.WrappedString.IWrappedString)">
+<summary>
+ Converts any wrapped string to an EmailAddress
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.PersonalNameModule.fullNameTruncated(_73_Constrained_strings.PersonalNameModule.T)">
+<summary>
+ concat the first and last names together        
+ and truncate if too long
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.PersonalNameModule.fullNameOption(_73_Constrained_strings.PersonalNameModule.T)">
+<summary>
+ concat the first and last names together        
+ and return None if too long
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.PersonalNameModule.fullNameRaw(_73_Constrained_strings.PersonalNameModule.T)">
+<summary>
+ concat the first and last names together        
+ and return a raw string
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.PersonalNameModule.create(System.String,System.String)">
+<summary>
+ create a new value
+</summary>
+</member>
+<member name="T:_73_Constrained_strings.WrappedString.Text1000">
+<summary>
+ A multiline text of length 1000
+</summary>
+</member>
+<member name="T:_73_Constrained_strings.WrappedString.String50">
+<summary>
+ A string of length 50
+</summary>
+</member>
+<member name="T:_73_Constrained_strings.WrappedString.String100">
+<summary>
+ A string of length 100
+</summary>
+</member>
+<member name="T:_73_Constrained_strings.WrappedString.IWrappedString">
+<summary>
+ An interface that all wrapped strings support
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.mapAdd``1(_73_Constrained_strings.WrappedString.IWrappedString,``0,Microsoft.FSharp.Collections.FSharpMap{System.String,``0})">
+<summary>
+ map helpers
+</summary>
+</member>
+<member name="P:_73_Constrained_strings.WrappedString.text1000">
+<summary>
+ A constructor for multiline strings of length 1000
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.convertTo50(_73_Constrained_strings.WrappedString.IWrappedString)">
+<summary>
+ Converts a wrapped string to a string of length 50
+</summary>
+</member>
+<member name="P:_73_Constrained_strings.WrappedString.string50">
+<summary>
+ A constructor for strings of length 50
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.convertTo100(_73_Constrained_strings.WrappedString.IWrappedString)">
+<summary>
+ Converts a wrapped string to a string of length 100
+</summary>
+</member>
+<member name="P:_73_Constrained_strings.WrappedString.string100">
+<summary>
+ A constructor for strings of length 100
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.lengthValidator(System.Int32,System.String)">
+<summary>
+ A validation function based on length
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.singleLineTrimmed(System.String)">
+<summary>
+ Canonicalizes a string before construction
+ * converts all whitespace to a space char
+ * trims both ends
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.compareTo(_73_Constrained_strings.WrappedString.IWrappedString,_73_Constrained_strings.WrappedString.IWrappedString)">
+<summary>
+ Comparison
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.equals(_73_Constrained_strings.WrappedString.IWrappedString,_73_Constrained_strings.WrappedString.IWrappedString)">
+<summary>
+ Equality test
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.value(_73_Constrained_strings.WrappedString.IWrappedString)">
+<summary>
+ Get the wrapped value
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.apply``1(Microsoft.FSharp.Core.FSharpFunc{System.String,``0},_73_Constrained_strings.WrappedString.IWrappedString)">
+<summary>
+ Apply the given function to the wrapped value
+</summary>
+</member>
+<member name="M:_73_Constrained_strings.WrappedString.create``2(Microsoft.FSharp.Core.FSharpFunc{System.String,``0},Microsoft.FSharp.Core.FSharpFunc{``0,System.Boolean},Microsoft.FSharp.Core.FSharpFunc{``0,``1},System.String)">
+<summary>
+ Create a wrapped value option
+ 1) canonicalize the input first
+ 2) If the validation succeeds, return Some of the given constructor
+ 3) If the validation fails, return None
+ Null values are never valid.
+</summary>
+</member>
+<member name="M:_74_Non_String_types.commandTimeout'(System.Int32,System.Data.IDbCommand)">
+<summary>
+ timeout after a certain number of seconds    
+</summary>
+</member>
+<member name="M:_74_Non_String_types.sleep'(System.Int32)">
+<summary>
+ sleep for a certain number of milliseconds
+</summary>
+</member>
+<member name="M:_74_Non_String_types.commandTimeout(_74_Non_String_types.TimeoutSecs,System.Data.IDbCommand)">
+<summary>
+ timeout after a certain number of seconds    
+</summary>
+</member>
+<member name="M:_74_Non_String_types.sleep(_74_Non_String_types.TimeoutMs)">
+<summary>
+ sleep for a certain number of milliseconds
+</summary>
+</member>
+<member name="M:_75_Conclusion.PersonalName.fullNameTruncated(_75_Conclusion.PersonalName.T)">
+<summary>
+ concat the names together        
+ and truncate if too long
+</summary>
+</member>
+<member name="M:_75_Conclusion.PersonalName.fullNameOption(_75_Conclusion.PersonalName.T)">
+<summary>
+ concat the names together        
+ and return None if too long
+</summary>
+</member>
+<member name="M:_75_Conclusion.PersonalName.fullNameRaw(_75_Conclusion.PersonalName.T)">
+<summary>
+ concat the names together        
+ and return a raw string
+</summary>
+</member>
+<member name="M:_75_Conclusion.PersonalName.create(System.String,System.String,System.String)">
+<summary>
+ create a new value
+</summary>
+</member>
+<member name="M:_75_Conclusion.StateCode.convert(_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Converts any wrapped string to a StateCode
+</summary>
+</member>
+<member name="M:_75_Conclusion.ZipCode.convert(_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Converts any wrapped string to a ZipCode
+</summary>
+</member>
+<member name="M:_75_Conclusion.EmailAddress.convert(_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Converts any wrapped string to an EmailAddress
+</summary>
+</member>
+<member name="T:_75_Conclusion.WrappedString.String50">
+<summary>
+ A string of length 50
+</summary>
+</member>
+<member name="T:_75_Conclusion.WrappedString.String100">
+<summary>
+ A string of length 100
+</summary>
+</member>
+<member name="T:_75_Conclusion.WrappedString.IWrappedString">
+<summary>
+ An interface that all wrapped strings support
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.mapAdd``1(_75_Conclusion.WrappedString.IWrappedString,``0,Microsoft.FSharp.Collections.FSharpMap{System.String,``0})">
+<summary>
+ map helpers
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.convertTo50(_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Converts a wrapped string to a string of length 50
+</summary>
+</member>
+<member name="P:_75_Conclusion.WrappedString.string50">
+<summary>
+ A constructor for strings of length 50
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.convertTo100(_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Converts a wrapped string to a string of length 100
+</summary>
+</member>
+<member name="P:_75_Conclusion.WrappedString.string100">
+<summary>
+ A constructor for strings of length 100
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.lengthValidator(System.Int32,System.String)">
+<summary>
+ A validation function based on length
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.singleLineTrimmed(System.String)">
+<summary>
+ Canonicalizes a string before construction
+ * converts all whitespace to a space char
+ * trims both ends
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.compareTo(_75_Conclusion.WrappedString.IWrappedString,_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Comparison
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.equals(_75_Conclusion.WrappedString.IWrappedString,_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Equality 
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.value(_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Get the wrapped value
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.apply``1(Microsoft.FSharp.Core.FSharpFunc{System.String,``0},_75_Conclusion.WrappedString.IWrappedString)">
+<summary>
+ Apply the given function to the wrapped value
+</summary>
+</member>
+<member name="M:_75_Conclusion.WrappedString.create``2(Microsoft.FSharp.Core.FSharpFunc{System.String,``0},Microsoft.FSharp.Core.FSharpFunc{``0,System.Boolean},Microsoft.FSharp.Core.FSharpFunc{``0,``1},System.String)">
+<summary>
+ Create a wrapped value option
+ 1) canonicalize the input first
+ 2) If the validation succeeds, return Some of the given constructor
+ 3) If the validation fails, return None
+ Null values are never valid.
+</summary>
+</member>
+<member name="T:_75_Conclusion.WrappedString">
+<summary>
+ Common code for wrapped strings
+</summary>
+</member>
+</members>
+</doc>

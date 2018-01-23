@@ -1,0 +1,18 @@
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\bin\Debug\Samples.exe.config
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\bin\Debug\Samples.XML
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\bin\Debug\Samples.exe
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\bin\Debug\Samples.pdb
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\bin\Debug\FSharp.Core.dll
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\bin\Debug\System.ValueTuple.dll
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\bin\Debug\FSharp.Core.xml
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\obj\Debug\Samples.exe
+D:\Users\LVillarCruz\Desktop\Documentation\F#\Samples\Samples\obj\Debug\Samples.pdb
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\bin\Debug\Samples.exe.config
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\bin\Debug\Samples.XML
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\bin\Debug\Samples.exe
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\bin\Debug\Samples.pdb
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\bin\Debug\FSharp.Core.dll
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\bin\Debug\System.ValueTuple.dll
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\bin\Debug\FSharp.Core.xml
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\obj\Debug\Samples.exe
+D:\Users\LVillarCruz\Desktop\Documentation\Functional Programming\F#\Samples\Samples\obj\Debug\Samples.pdb
